@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinitus 2025 - SRMAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            background: #1a1a2e;
+            color: white;
+        }
+        .navbar {
+            background: #0f3460;
+        }
+        .navbar-brand, .nav-link {
+            color: white !important;
+        }
+        .section-container {
+            margin: 40px auto;
+            padding: 20px;
+            background: #16213e;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .card {
+            background: #0f3460;
+            color: white;
+            border-radius: 10px;
+        }
+        .btn-custom {
+            background: #e94560;
+            color: white;
+        }
+        .btn-custom:hover {
+            background: #ff4b5c;
+        }
+        footer {
+            background: #0f3460;
+            padding: 20px;
+            text-align: center;
+            color: #f2a365;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">Infinitus 2025</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#details">Event Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#register">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container mt-5">
+        <div id="details" class="section-container">
+            <h2>Event Details</h2>
+            <p><strong><i class="bi bi-calendar-event"></i> Date:</strong> March 24, 2025</p>
+            <p><strong><i class="bi bi-geo-alt"></i> Location:</strong> SRM University, AP</p>
+            <p>Join us for an exciting day of cultural celebrations, music, and entertainment at Infinitus 2025!</p>
+        </div>
+        
+        <div id="schedule" class="section-container">
+            <h2>Event Schedule</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card p-3">
+                        <strong>03:00 PM - 03:40 PM:</strong> Cultural Prize Distribution - <em>ALC-2, 5th Floor, Admin Block</em>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-3">
+                        <strong>07:00 PM - 09:00 PM:</strong> Pro Show 3 - Neeti Mohan - <em>Infinitus Ground</em>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <div class="card p-3">
+                        <strong>09:30 PM - 11:30 PM:</strong> Pro Show 4 - DJ Nototrious - <em>Infinitus Ground</em>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-3">
+                    <div class="card p-3">
+                        <strong>11:30 PM - 01:00 AM:</strong> Pro Show 5 - Telugu DJ - <em>Infinitus Ground</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="register" class="section-container">
+            <h2>Register for the Event</h2>
+            <form class="w-50 mx-auto">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label">Phone:</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-custom">Register</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@infinitus2025.com</p>
+        <p>Follow us on social media:</p>
+        <a href="#" class="text-decoration-none text-warning">Facebook</a> | 
+        <a href="#" class="text-decoration-none text-warning">Twitter</a> | 
+        <a href="#" class="text-decoration-none text-warning">Instagram</a>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

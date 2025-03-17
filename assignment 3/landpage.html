@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fresh Brew Coffee Maker</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            }
+        .hero {
+            background: url('coffee-bg.jpg') center/cover no-repeat; 
+            color: white; 
+            padding: 50px 0; 
+            text-align: center; 
+            }
+
+        .hero img { 
+            max-height: 400px; 
+            width: auto; 
+            display: block; 
+            margin: 0 auto; 
+            }
+
+        .hero .shop-now-container { 
+            margin-top: 100px; 
+            }
+
+        .hero .btn { 
+            font-size: 1.5rem; 
+            padding: 10px 20px; 
+            }
+
+        .features i { 
+            font-size: 2rem; 
+            margin-bottom: 10px; 
+            display: block; 
+            }
+
+        .testimonials { 
+            background-color: #a9c6db; 
+            padding: 50px 0; 
+            }
+
+        .testimonials p { 
+            font-style: italic; 
+            }
+        .testimonials h5 { 
+            margin-top: 10px; 
+            font-weight: bold; 
+            }
+        footer { 
+            background-color: #333; 
+            color: white; 
+            padding: 20px 0; 
+            text-align: center; 
+            }
+        .social-icons a { 
+            color: white; 
+            margin: 0 10px; 
+            font-size: 1.5rem; 
+            }
+        .card { 
+            height: 100%; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            }
+        .card-body { 
+            flex-grow: 1; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center; 
+            }
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            filter: invert(1);
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Fresh Brew</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header id="carouselExample" class="carousel slide hero" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="C:\Users\nitee\Downloads\maker1.jpg" class="d-block" alt="Fresh Brew Coffee Maker">
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\nitee\Downloads\maker2.jpg" class="d-block" alt="Enjoy Your Coffee">
+            </div>
+            <div class="carousel-item">
+                <img src="C:\Users\nitee\Downloads\maker3.jpg" class="d-block" alt="Perfect Brew Every Time">
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+    <div class="text-center shop-now-container">
+        <a href="#" class="btn btn-primary">Shop Now</a>
+    </div>
+    </header>
+    
+    <section id="features" class="container py-5 text-center">
+        <h2>Features</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <i class="bi bi-cup-fill display-4"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Advanced Brewing</h4>
+                        <p class="card-text">Perfectly brewed coffee with temperature control.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <i class="bi bi-clock display-4"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Fast & Efficient</h4>
+                        <p class="card-text">Brews your coffee in just 5 minutes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <i class="bi bi-droplet-fill display-4"></i>
+                    <div class="card-body">
+                        <h4 class="card-title">Easy to Clean</h4>
+                        <p class="card-text">Detachable components for hassle-free cleaning.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="testimonials" class="testimonials text-center">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <p>"Absolutely love this coffee maker! The best investment for my mornings."</p>
+                    <h5>- Shannu</h5>
+                </div>
+                <div class="col-md-4">
+                    <p>"Fast, efficient, and makes the perfect coffee every time!"</p>
+                    <h5>- Jai.</h5>
+                </div>
+                <div class="col-md-4">
+                    <p>"Super easy to clean and use. Highly recommended!"</p>
+                    <h5>- Niteesh.</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+        <h2 class="text-center">Contact Us</h2>
+        <form class="mx-auto w-50">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Contact us at freshbrew@coffee.com</p>
+        <div class="social-icons">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
